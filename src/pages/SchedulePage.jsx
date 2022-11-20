@@ -1,19 +1,27 @@
 import { Courses } from "../components/Courses"
-import { Form } from "../components/Form"
+import { Schedule } from "../components/Schedule"
 
 export const SchedulePage = () => {
   return (
-    <div className="countainer">
-      <h1>Horario</h1>
+    <div className="countainer m-1">
+      <h1 className="text-center h-5" >Horario</h1>
       <hr />
 
-      
-    <section className="row"></section>
-      {/* courses */}
-      <Courses  />
 
-      {/* schedule */}
-      <Form   />
+      <section className="row h-95">
+        {/* courses */}
+        <div className="col-md-3" >
+          <Courses />
+        </div>
+
+
+        {/* schedule */}
+        <div className="col-md-9">
+          <Schedule />
+        </div>
+
+      </section>
+
 
     </div>
   )
