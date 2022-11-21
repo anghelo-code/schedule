@@ -1,6 +1,6 @@
 export const AppSchedule = () => {
 
-    return (
+  return (
     <>
       <h1>Horario</h1>
       {/* Form */}
@@ -10,4 +10,3 @@ export const AppSchedule = () => {
     </>
   )
 }
- 

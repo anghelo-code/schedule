@@ -1,5 +1,6 @@
-import { Courses } from "../components/Courses"
-import { Form } from "../components/Form"
+import { Courses } from "../components/Courses";
+import { Form } from "../components/Form";
+import './../app.css';
 
 export const HomePage = () => {
   return (
@@ -7,16 +8,24 @@ export const HomePage = () => {
       <h1 className="text-center" >Horario</h1>
       <hr />
       
-      <section >
+      <section className="bodyHome p-3 " >
         {/* Form */}
-        <Form  />
+        <div>
+          <Form  />
+        </div>
+        
 
         {/* courses */}
-        <Courses />
+        <div className="w-25">
+          <Courses />
+        </div>
+
+        <button className="btn btn-primary">Generar</button>
       </section>
-      
     </div>
   )
 }
+
+
 
 
