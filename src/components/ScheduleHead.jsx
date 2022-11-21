@@ -2,8 +2,8 @@ import React from 'react'
 
 export const ScheduleHead = () => {
   return (
-    <thead>
-      <tr>
+    <thead className='table-light'>
+      <tr className='threadHeight'>
         <th scope="col">#</th>
         <th scope="col">Lunes</th>
         <th scope="col">Martes</th>

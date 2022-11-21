@@ -1,13 +1,14 @@
 import React from 'react'
 
-export const OneCourses = ({name, id, nameT}) => {
+export const OneCourses = ({name, id, nameT, classDiv}) => {
+    // const color = `background-color: ${classDiv};`;
     return (
-        <div class="list-group-item list-group-item-action" aria-current="true">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">{name}</h5>
+        <div className="list-group-item list-group-item-action" aria-current="true" style={{backgroundColor: classDiv}}>
+            <div className="d-flex w-100 justify-content-between">
+                <h5 className="mb-1">{name}</h5>
                 <small>{id}</small>
             </div>
-            <p class="mb-1">{nameT}</p>
+            <p className="mb-1">{nameT}</p>
         </div>
     )
 }

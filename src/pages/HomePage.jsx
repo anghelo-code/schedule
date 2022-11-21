@@ -3,11 +3,11 @@ import { Form } from "../components/Form"
 
 export const HomePage = () => {
   return (
-    <div className="countainer m-1">
+    <div className="countainer p-3">
       <h1 className="text-center" >Horario</h1>
       <hr />
       
-      <section className="row h-95">
+      <section >
         {/* Form */}
         <Form  />
 
