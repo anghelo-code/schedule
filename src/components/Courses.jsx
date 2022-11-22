@@ -1,14 +1,22 @@
-import { OneCourses } from "./OneCourses"
+import { useContext } from "react";
+import { OneCourses } from './OneCourses';
+import { TodoContext } from '../context/TodoContext';
 
 export const Courses = () => {
+
+  const { todos, todosCount } =  useContext( TodoContext );
+  console.log(todos);
+  console.log(todosCount);
   return (
     <div className="list-group border p-4">
       <h2 className="text-center">Cursos</h2>
-      <OneCourses name="Matematica I" nameT="Juan Florez" id="IF453" classDiv="#EED9C4" />
-      <OneCourses name="Programacion I" nameT="Pedro Garzia" id="JD443" classDiv="#FFEBCD" />
-      <OneCourses name="Base de Datos II" nameT="Judas Quispe" id="BI952" classDiv="#D8BFD8" />
-      <OneCourses name="Teoria" nameT="Maria Quispe" id="IF353" classDiv="#FFFDD0" />
-      <OneCourses name="Quechua" nameT="Pepe Peralta" id="AG353" classDiv="#CCCCFF" />
+
+      {
+        todos.map( ({ id, values, color }) => (
+          <OneCourses  key={ id } name={ values.nombre } nameT="Juan Florez" id={id} classDiv={ color } />
+
+        ))
+      }
     </div>
 
   )

@@ -1,0 +1,1824 @@
+{
+  "IF619AIN": {
+    "nombre": "ANALISIS DE DATOS EMPRESARIALES",
+    "creditos": "03",
+    "semestre": "",
+    "horas": {
+      "MA": [
+        7,
+        9
+      ],
+      "JU": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF619BIN": {
+    "nombre": "ANALISIS DE DATOS EMPRESARIALES",
+    "creditos": "03",
+    "semestre": "0",
+    "horas": {
+      "MA": [
+        14,
+        16
+      ],
+      "JU": [
+        14,
+        16
+      ]
+    }
+  },
+  "IF662AIN": {
+    "nombre": "DEEP LEARNING",
+    "creditos": "04",
+    "semestre": "0",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ],
+      "VI": [
+        10,
+        11
+      ]
+    }
+  },
+  "IF616AIN": {
+    "nombre": "DESARROLLO DE SOFTWARE II",
+    "creditos": "02",
+    "semestre": "0",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ]
+    }
+  },
+  "IF484AIN": {
+    "nombre": "EMPRENDIMIENTO E INNOVACION",
+    "creditos": "03",
+    "semestre": "0",
+    "horas": {
+      "LU": [
+        14,
+        16
+      ],
+      "MI": [
+        14,
+        16
+      ]
+    }
+  },
+  "IF553AIN": {
+    "nombre": "LENGUAJE ENSAMBLADOR",
+    "creditos": "03",
+    "semestre": "0",
+    "horas": {
+      "LU": [
+        11,
+        13
+      ],
+      "MI": [
+        11,
+        13
+      ]
+    }
+  },
+  "IF653AIN": {
+    "nombre": "MINERIA DE DATOS",
+    "creditos": "04",
+    "semestre": "0",
+    "horas": {
+      "MA": [
+        7,
+        9
+      ],
+      "JU": [
+        7,
+        9
+      ],
+      "VI": [
+        7,
+        8
+      ]
+    }
+  },
+  "IF658AIN": {
+    "nombre": "REDES NEURONALES ARTIFICIALES",
+    "creditos": "04",
+    "semestre": "0",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ],
+      "VI": [
+        9,
+        10
+      ]
+    }
+  },
+  "IF556AIN": {
+    "nombre": "SISTEMAS EMBEBIDOS",
+    "creditos": "04",
+    "semestre": "0",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ],
+      "VI": [
+        9,
+        10
+      ]
+    }
+  },
+  "IF064AIN": {
+    "nombre": "TALLER  DE DEBATE",
+    "creditos": "02",
+    "semestre": "0",
+    "horas": {
+      "JU": [
+        11,
+        13
+      ],
+      "SA": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF618AIN": {
+    "nombre": "TOPICOS AVANZADOS EN INGENIERIA DE SOFTWARE",
+    "creditos": "04",
+    "semestre": "0",
+    "horas": {
+      "LU": [
+        11,
+        13
+      ],
+      "MI": [
+        11,
+        13
+      ],
+      "VI": [
+        11,
+        12
+      ]
+    }
+  },
+  "DE901AIN": {
+    "nombre": "CONSTITUCION POLITICA Y DERECHOS HUMANOS",
+    "creditos": "03",
+    "semestre": "1",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ]
+    }
+  },
+  "ED901AIN": {
+    "nombre": "ESTRATEGIAS DE APRENDIZAJE AUTONOMO",
+    "creditos": "04",
+    "semestre": "1",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ],
+      "VI": [
+        7,
+        8
+      ]
+    }
+  },
+  "FP901AIN": {
+    "nombre": "FILOSOFIA Y ETICA",
+    "creditos": "03",
+    "semestre": "1",
+    "horas": {
+      "MA": [
+        7,
+        9
+      ],
+      "JU": [
+        7,
+        9
+      ]
+    }
+  },
+  "ME901AIN": {
+    "nombre": "MATEMATICA I",
+    "creditos": "04",
+    "semestre": "1",
+    "horas": {
+      "LU": [
+        11,
+        13
+      ],
+      "MI": [
+        11,
+        13
+      ],
+      "VI": [
+        11,
+        12
+      ]
+    }
+  },
+  "LC901AIN": {
+    "nombre": "REDACCION DE TEXTOS",
+    "creditos": "04",
+    "semestre": "1",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ],
+      "VI": [
+        9,
+        10
+      ]
+    }
+  },
+  "AS901AIN": {
+    "nombre": "SOCIEDAD Y CULTURA",
+    "creditos": "03",
+    "semestre": "1",
+    "horas": {
+      "MA": [
+        11,
+        13
+      ],
+      "JU": [
+        11,
+        13
+      ]
+    }
+  },
+  "ME903AIN": {
+    "nombre": "C\u00c1LCULO I",
+    "creditos": "04",
+    "semestre": "2",
+    "horas": {
+      "LU": [
+        16,
+        18
+      ],
+      "MI": [
+        16,
+        18
+      ],
+      "VI": [
+        16,
+        17
+      ]
+    }
+  },
+  "FI902AIN": {
+    "nombre": "F\u00cdSICA I",
+    "creditos": "04",
+    "semestre": "2",
+    "horas": {
+      "LU": [
+        14,
+        16
+      ],
+      "MI": [
+        14,
+        16
+      ],
+      "VI": [
+        14,
+        15
+      ]
+    }
+  },
+  "IF468AIN": {
+    "nombre": "FUNDAMENTOS DE PROGRAMACI\u00d3N",
+    "creditos": "04",
+    "semestre": "2",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ],
+      "VI": [
+        9,
+        10
+      ]
+    }
+  },
+  "IF468BIN": {
+    "nombre": "FUNDAMENTOS DE PROGRAMACI\u00d3N",
+    "creditos": "04",
+    "semestre": "2",
+    "horas": {
+      "LU": [
+        18,
+        20
+      ],
+      "MI": [
+        18,
+        20
+      ],
+      "VI": [
+        18,
+        19
+      ]
+    }
+  },
+  "FP902AIN": {
+    "nombre": "LIDERAZGO Y HABILIDADES SOCIALES",
+    "creditos": "03",
+    "semestre": "2",
+    "horas": {
+      "MA": [
+        16,
+        18
+      ],
+      "JU": [
+        16,
+        18
+      ]
+    }
+  },
+  "FP902BIN": {
+    "nombre": "LIDERAZGO Y HABILIDADES SOCIALES",
+    "creditos": "03",
+    "semestre": "2",
+    "horas": {
+      "MA": [
+        16,
+        18
+      ],
+      "JU": [
+        16,
+        18
+      ]
+    }
+  },
+  "ME307AIN": {
+    "nombre": "MATEM\u00c1TICAS DISCRETAS I",
+    "creditos": "04",
+    "semestre": "2",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ],
+      "VI": [
+        10,
+        11
+      ]
+    }
+  },
+  "IF902AIN": {
+    "nombre": "TECNOLOGIAS DE LA INFORMACI\u00d3N Y LA COMUNICACI\u00d3N",
+    "creditos": "03",
+    "semestre": "2",
+    "horas": {
+      "MA": [
+        14,
+        16
+      ],
+      "JU": [
+        14,
+        16
+      ]
+    }
+  },
+  "IF902BIN": {
+    "nombre": "TECNOLOGIAS DE LA INFORMACI\u00d3N Y LA COMUNICACI\u00d3N",
+    "creditos": "03",
+    "semestre": "2",
+    "horas": {
+      "MA": [
+        14,
+        16
+      ],
+      "JU": [
+        14,
+        16
+      ]
+    }
+  },
+  "IF450AIN": {
+    "nombre": "ABSTRACCI\u00d3N DE DATOS Y OBJETOS",
+    "creditos": "04",
+    "semestre": "3",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ],
+      "VI": [
+        9,
+        10
+      ]
+    }
+  },
+  "IF450BIN": {
+    "nombre": "ABSTRACCI\u00d3N DE DATOS Y OBJETOS",
+    "creditos": "04",
+    "semestre": "3",
+    "horas": {
+      "LU": [
+        16,
+        18
+      ],
+      "MI": [
+        16,
+        18
+      ],
+      "VI": [
+        17,
+        18
+      ]
+    }
+  },
+  "ME351AIN": {
+    "nombre": "ALGEBRA LINEAL",
+    "creditos": "04",
+    "semestre": "3",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ],
+      "VI": [
+        7,
+        8
+      ]
+    }
+  },
+  "ME351BIN": {
+    "nombre": "ALGEBRA LINEAL",
+    "creditos": "04",
+    "semestre": "3",
+    "horas": {
+      "LU": [
+        14,
+        16
+      ],
+      "MI": [
+        14,
+        16
+      ],
+      "VI": [
+        14,
+        15
+      ]
+    }
+  },
+  "ME350AIN": {
+    "nombre": "CALCULO II",
+    "creditos": "04",
+    "semestre": "3",
+    "horas": {
+      "MA": [
+        7,
+        9
+      ],
+      "JU": [
+        7,
+        9
+      ],
+      "VI": [
+        8,
+        9
+      ]
+    }
+  },
+  "ME350BIN": {
+    "nombre": "CALCULO II",
+    "creditos": "04",
+    "semestre": "3",
+    "horas": {
+      "MA": [
+        14,
+        16
+      ],
+      "JU": [
+        14,
+        16
+      ],
+      "VI": [
+        15,
+        16
+      ]
+    }
+  },
+  "FI370AIN": {
+    "nombre": "FISICA APLICADA",
+    "creditos": "04",
+    "semestre": "3",
+    "horas": {
+      "MA": [
+        11,
+        13
+      ],
+      "JU": [
+        11,
+        13
+      ],
+      "VI": [
+        12,
+        13
+      ]
+    }
+  },
+  "FI370BIN": {
+    "nombre": "FISICA APLICADA",
+    "creditos": "04",
+    "semestre": "3",
+    "horas": {
+      "MA": [
+        18,
+        20
+      ],
+      "JU": [
+        18,
+        20
+      ],
+      "VI": [
+        19,
+        20
+      ]
+    }
+  },
+  "ME352AIN": {
+    "nombre": "PROBABILIDADES Y ESTAD\u00cdSTICA",
+    "creditos": "04",
+    "semestre": "3",
+    "horas": {
+      "LU": [
+        11,
+        13
+      ],
+      "MI": [
+        11,
+        13
+      ],
+      "VI": [
+        11,
+        12
+      ]
+    }
+  },
+  "ME352BIN": {
+    "nombre": "PROBABILIDADES Y ESTAD\u00cdSTICA",
+    "creditos": "04",
+    "semestre": "3",
+    "horas": {
+      "LU": [
+        18,
+        20
+      ],
+      "MI": [
+        18,
+        20
+      ],
+      "VI": [
+        18,
+        19
+      ]
+    }
+  },
+  "IF451AIN": {
+    "nombre": "PROGRAMACION I",
+    "creditos": "02",
+    "semestre": "3",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ]
+    }
+  },
+  "IF451BIN": {
+    "nombre": "PROGRAMACION I",
+    "creditos": "02",
+    "semestre": "3",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ]
+    }
+  },
+  "IF480AIN": {
+    "nombre": "ADMINISTRACI\u00d3N DE TECNOLOGIAS DE INFORMACI\u00d3N",
+    "creditos": "03",
+    "semestre": "4",
+    "horas": {
+      "LU": [
+        11,
+        13
+      ],
+      "MI": [
+        11,
+        13
+      ]
+    }
+  },
+  "IF480BIN": {
+    "nombre": "ADMINISTRACI\u00d3N DE TECNOLOGIAS DE INFORMACI\u00d3N",
+    "creditos": "03",
+    "semestre": "4",
+    "horas": {
+      "LU": [
+        18,
+        20
+      ],
+      "MI": [
+        18,
+        20
+      ]
+    }
+  },
+  "IF452AIN": {
+    "nombre": "ALGORITMOS Y ESTRUCTURAS DE DATOS",
+    "creditos": "04",
+    "semestre": "4",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ],
+      "VI": [
+        10,
+        11
+      ]
+    }
+  },
+  "IF452BIN": {
+    "nombre": "ALGORITMOS Y ESTRUCTURAS DE DATOS",
+    "creditos": "04",
+    "semestre": "4",
+    "horas": {
+      "LU": [
+        16,
+        18
+      ],
+      "MI": [
+        16,
+        18
+      ],
+      "VI": [
+        16,
+        17
+      ]
+    }
+  },
+  "EL371AIN": {
+    "nombre": "ELECTR\u00d3NICA Y DISE\u00d1O DIGITAL",
+    "creditos": "03",
+    "semestre": "4",
+    "horas": {
+      "MA": [
+        11,
+        13
+      ],
+      "JU": [
+        11,
+        13
+      ]
+    }
+  },
+  "EL371BIN": {
+    "nombre": "ELECTR\u00d3NICA Y DISE\u00d1O DIGITAL",
+    "creditos": "03",
+    "semestre": "4",
+    "horas": {
+      "MA": [
+        11,
+        13
+      ],
+      "JU": [
+        11,
+        13
+      ]
+    }
+  },
+  "ME354AIN": {
+    "nombre": "INVESTIGACI\u00d3N OPERATIVA",
+    "creditos": "04",
+    "semestre": "4",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ],
+      "VI": [
+        7,
+        8
+      ]
+    }
+  },
+  "ME354BIN": {
+    "nombre": "INVESTIGACI\u00d3N OPERATIVA",
+    "creditos": "04",
+    "semestre": "4",
+    "horas": {
+      "LU": [
+        14,
+        16
+      ],
+      "MI": [
+        14,
+        16
+      ],
+      "VI": [
+        14,
+        15
+      ]
+    }
+  },
+  "ME355AIN": {
+    "nombre": "MATEM\u00c1TICAS DISCRETAS II",
+    "creditos": "04",
+    "semestre": "4",
+    "horas": {
+      "MA": [
+        7,
+        9
+      ],
+      "JU": [
+        7,
+        9
+      ],
+      "VI": [
+        8,
+        9
+      ]
+    }
+  },
+  "ME355BIN": {
+    "nombre": "MATEM\u00c1TICAS DISCRETAS II",
+    "creditos": "04",
+    "semestre": "4",
+    "horas": {
+      "MA": [
+        14,
+        16
+      ],
+      "JU": [
+        14,
+        16
+      ],
+      "VI": [
+        15,
+        16
+      ]
+    }
+  },
+  "IF060AIN": {
+    "nombre": "M\u00daSICA",
+    "creditos": "02",
+    "semestre": "4",
+    "horas": {
+      "VI": [
+        11,
+        13
+      ],
+      "SA": [
+        9,
+        11
+      ]
+    }
+  },
+  "IF453AIN": {
+    "nombre": "PROGRAMACI\u00d3N II",
+    "creditos": "02",
+    "semestre": "4",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ]
+    }
+  },
+  "IF453BIN": {
+    "nombre": "PROGRAMACI\u00d3N II",
+    "creditos": "02",
+    "semestre": "4",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ]
+    }
+  },
+  "IF453CIN": {
+    "nombre": "PROGRAMACI\u00d3N II",
+    "creditos": "02",
+    "semestre": "4",
+    "horas": {
+      "MA": [
+        16,
+        18
+      ],
+      "JU": [
+        16,
+        18
+      ]
+    }
+  },
+  "IF610AIN": {
+    "nombre": "ANALISIS Y DISE\u00d1O DE SISTEMAS DE INFORMACI\u00d3N",
+    "creditos": "04",
+    "semestre": "5",
+    "horas": {
+      "MA": [
+        7,
+        9
+      ],
+      "JU": [
+        7,
+        9
+      ],
+      "VI": [
+        8,
+        9
+      ]
+    }
+  },
+  "ME356AIN": {
+    "nombre": "ECUACIONES DIFERENCIALES",
+    "creditos": "04",
+    "semestre": "5",
+    "horas": {
+      "MA": [
+        11,
+        13
+      ],
+      "JU": [
+        11,
+        13
+      ],
+      "VI": [
+        11,
+        12
+      ]
+    }
+  },
+  "IF481AIN": {
+    "nombre": "INGENIERIA ECONOMICA",
+    "creditos": "03",
+    "semestre": "5",
+    "horas": {
+      "LU": [
+        11,
+        13
+      ],
+      "MI": [
+        11,
+        13
+      ]
+    }
+  },
+  "IF650AIN": {
+    "nombre": "MODELOS PROBABILISTICOS",
+    "creditos": "04",
+    "semestre": "5",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ],
+      "VI": [
+        10,
+        11
+      ]
+    }
+  },
+  "IF650BIN": {
+    "nombre": "MODELOS PROBABILISTICOS",
+    "creditos": "04",
+    "semestre": "5",
+    "horas": {
+      "MA": [
+        14,
+        16
+      ],
+      "JU": [
+        14,
+        16
+      ],
+      "VI": [
+        15,
+        16
+      ]
+    }
+  },
+  "IF550AIN": {
+    "nombre": "ORGANIZACI\u00d3N Y ARQUITECTURA DEL COMPUTADOR",
+    "creditos": "04",
+    "semestre": "5",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ],
+      "VI": [
+        9,
+        10
+      ]
+    }
+  },
+  "IF454AIN": {
+    "nombre": "TEORIA DE LA COMPUTACION",
+    "creditos": "03",
+    "semestre": "5",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF455AIN": {
+    "nombre": "ALGORITMOS PARALELOS Y DISTRIBUIDOS",
+    "creditos": "04",
+    "semestre": "6",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ],
+      "VI": [
+        10,
+        11
+      ]
+    }
+  },
+  "IF455BIN": {
+    "nombre": "ALGORITMOS PARALELOS Y DISTRIBUIDOS",
+    "creditos": "04",
+    "semestre": "6",
+    "horas": {
+      "LU": [
+        14,
+        16
+      ],
+      "MI": [
+        14,
+        16
+      ],
+      "VI": [
+        15,
+        16
+      ]
+    }
+  },
+  "IF458AIN": {
+    "nombre": "COMPUTACI\u00d3N GR\u00c1FICA I",
+    "creditos": "04",
+    "semestre": "6",
+    "horas": {
+      "LU": [
+        11,
+        13
+      ],
+      "MI": [
+        11,
+        13
+      ],
+      "VI": [
+        11,
+        12
+      ]
+    }
+  },
+  "IF612AIN": {
+    "nombre": "FUNDAMENTOS Y DISE\u00d1O DE BASES DE DATOS",
+    "creditos": "04",
+    "semestre": "6",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ],
+      "VI": [
+        9,
+        10
+      ]
+    }
+  },
+  "IF612BIN": {
+    "nombre": "FUNDAMENTOS Y DISE\u00d1O DE BASES DE DATOS",
+    "creditos": "04",
+    "semestre": "6",
+    "horas": {
+      "MA": [
+        16,
+        18
+      ],
+      "JU": [
+        16,
+        18
+      ],
+      "VI": [
+        17,
+        18
+      ]
+    }
+  },
+  "IF611AIN": {
+    "nombre": "METODOLOG\u00cdA DE DESARROLLO DE SOFTWARE",
+    "creditos": "03",
+    "semestre": "6",
+    "horas": {
+      "MA": [
+        7,
+        9
+      ],
+      "JU": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF611BIN": {
+    "nombre": "METODOLOG\u00cdA DE DESARROLLO DE SOFTWARE",
+    "creditos": "03",
+    "semestre": "6",
+    "horas": {
+      "MA": [
+        14,
+        16
+      ],
+      "JU": [
+        14,
+        16
+      ]
+    }
+  },
+  "IF457AIN": {
+    "nombre": "METODOS NUMERICOS",
+    "creditos": "03",
+    "semestre": "6",
+    "horas": {
+      "MA": [
+        18,
+        20
+      ],
+      "JU": [
+        18,
+        20
+      ]
+    }
+  },
+  "IF551AIN": {
+    "nombre": "SISTEMAS OPERATIVOS",
+    "creditos": "04",
+    "semestre": "6",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ],
+      "VI": [
+        8,
+        9
+      ]
+    }
+  },
+  "IF551BIN": {
+    "nombre": "SISTEMAS OPERATIVOS",
+    "creditos": "04",
+    "semestre": "6",
+    "horas": {
+      "LU": [
+        16,
+        18
+      ],
+      "MI": [
+        16,
+        18
+      ],
+      "VI": [
+        16,
+        17
+      ]
+    }
+  },
+  "IF456AIN": {
+    "nombre": "ALGORITMOS AVANZADOS",
+    "creditos": "04",
+    "semestre": "7",
+    "horas": {
+      "LU": [
+        11,
+        13
+      ],
+      "MI": [
+        11,
+        13
+      ],
+      "VI": [
+        11,
+        12
+      ]
+    }
+  },
+  "IF456BIN": {
+    "nombre": "ALGORITMOS AVANZADOS",
+    "creditos": "04",
+    "semestre": "7",
+    "horas": {
+      "LU": [
+        18,
+        20
+      ],
+      "MI": [
+        18,
+        20
+      ],
+      "VI": [
+        18,
+        19
+      ]
+    }
+  },
+  "IF467AIN": {
+    "nombre": "AN\u00c1LISIS Y DISE\u00d1O DE ALGORITMOS",
+    "creditos": "03",
+    "semestre": "7",
+    "horas": {
+      "MA": [
+        7,
+        9
+      ],
+      "JU": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF467BIN": {
+    "nombre": "AN\u00c1LISIS Y DISE\u00d1O DE ALGORITMOS",
+    "creditos": "03",
+    "semestre": "7",
+    "horas": {
+      "MA": [
+        14,
+        16
+      ],
+      "JU": [
+        14,
+        16
+      ]
+    }
+  },
+  "IF466AIN": {
+    "nombre": "COMPILADORES",
+    "creditos": "03",
+    "semestre": "7",
+    "horas": {
+      "MA": [
+        18,
+        20
+      ],
+      "JU": [
+        18,
+        20
+      ]
+    }
+  },
+  "IF613AIN": {
+    "nombre": "DESARROLLO DE SOFTWARE I",
+    "creditos": "02",
+    "semestre": "7",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF613BIN": {
+    "nombre": "DESARROLLO DE SOFTWARE I",
+    "creditos": "02",
+    "semestre": "7",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF613CIN": {
+    "nombre": "DESARROLLO DE SOFTWARE I",
+    "creditos": "02",
+    "semestre": "7",
+    "horas": {
+      "LU": [
+        14,
+        16
+      ],
+      "MI": [
+        14,
+        16
+      ]
+    }
+  },
+  "IF651AIN": {
+    "nombre": "INTELIGENCIA ARTIFICIAL",
+    "creditos": "04",
+    "semestre": "7",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ],
+      "VI": [
+        10,
+        11
+      ]
+    }
+  },
+  "IF651BIN": {
+    "nombre": "INTELIGENCIA ARTIFICIAL",
+    "creditos": "04",
+    "semestre": "7",
+    "horas": {
+      "LU": [
+        16,
+        18
+      ],
+      "MI": [
+        16,
+        18
+      ],
+      "VI": [
+        17,
+        18
+      ]
+    }
+  },
+  "IF414ZIN": {
+    "nombre": "LABORATORIO VI",
+    "creditos": "02",
+    "semestre": "7",
+    "horas": {
+      "": [
+        0,
+        0
+      ]
+    }
+  },
+  "IF063AIN": {
+    "nombre": "QUECHUA",
+    "creditos": "02",
+    "semestre": "7",
+    "horas": {
+      "VI": [
+        7,
+        9
+      ],
+      "SA": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF063BIN": {
+    "nombre": "QUECHUA",
+    "creditos": "02",
+    "semestre": "7",
+    "horas": {
+      "VI": [
+        14,
+        16
+      ],
+      "SA": [
+        16,
+        18
+      ]
+    }
+  },
+  "IF552AIN": {
+    "nombre": "REDES DE COMPUTADORAS I",
+    "creditos": "04",
+    "semestre": "7",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ],
+      "VI": [
+        9,
+        10
+      ]
+    }
+  },
+  "IF552BIN": {
+    "nombre": "REDES DE COMPUTADORAS I",
+    "creditos": "04",
+    "semestre": "7",
+    "horas": {
+      "MA": [
+        16,
+        18
+      ],
+      "JU": [
+        16,
+        18
+      ],
+      "VI": [
+        16,
+        17
+      ]
+    }
+  },
+  "IF652AIN": {
+    "nombre": "APRENDIZAJE AUTOMATICO",
+    "creditos": "04",
+    "semestre": "8",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ],
+      "VI": [
+        10,
+        11
+      ]
+    }
+  },
+  "IF652BIN": {
+    "nombre": "APRENDIZAJE AUTOMATICO",
+    "creditos": "04",
+    "semestre": "8",
+    "horas": {
+      "MA": [
+        16,
+        18
+      ],
+      "JU": [
+        16,
+        18
+      ],
+      "VI": [
+        17,
+        18
+      ]
+    }
+  },
+  "IF664AIN": {
+    "nombre": "BIOINFORMATICA",
+    "creditos": "04",
+    "semestre": "8",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ],
+      "VI": [
+        9,
+        10
+      ]
+    }
+  },
+  "IF614AIN": {
+    "nombre": "INGENIERIA DE SOFTWARE I",
+    "creditos": "04",
+    "semestre": "8",
+    "horas": {
+      "MA": [
+        7,
+        9
+      ],
+      "JU": [
+        7,
+        9
+      ],
+      "VI": [
+        8,
+        9
+      ]
+    }
+  },
+  "IF614BIN": {
+    "nombre": "INGENIERIA DE SOFTWARE I",
+    "creditos": "04",
+    "semestre": "8",
+    "horas": {
+      "LU": [
+        16,
+        18
+      ],
+      "MI": [
+        16,
+        18
+      ],
+      "VI": [
+        16,
+        17
+      ]
+    }
+  },
+  "IF669AIN": {
+    "nombre": "MODELADO Y SIMULACION",
+    "creditos": "04",
+    "semestre": "8",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ],
+      "VI": [
+        7,
+        8
+      ]
+    }
+  },
+  "IF669BIN": {
+    "nombre": "MODELADO Y SIMULACION",
+    "creditos": "04",
+    "semestre": "8",
+    "horas": {
+      "LU": [
+        14,
+        16
+      ],
+      "MI": [
+        14,
+        16
+      ],
+      "VI": [
+        14,
+        15
+      ]
+    }
+  },
+  "IF482AIN": {
+    "nombre": "PLANEAMIENTO Y DIRECCION ESTRATEGICA DE TECNOLOGIA DE INFORMACION",
+    "creditos": "03",
+    "semestre": "8",
+    "horas": {
+      "VI": [
+        11,
+        13
+      ],
+      "SA": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF482BIN": {
+    "nombre": "PLANEAMIENTO Y DIRECCION ESTRATEGICA DE TECNOLOGIA DE INFORMACION",
+    "creditos": "03",
+    "semestre": "8",
+    "horas": {
+      "MA": [
+        18,
+        20
+      ],
+      "JU": [
+        18,
+        20
+      ]
+    }
+  },
+  "IF710AIN": {
+    "nombre": "SEMINARIO DE INVESTIGACION I",
+    "creditos": "03",
+    "semestre": "8",
+    "horas": {
+      "LU": [
+        11,
+        13
+      ],
+      "MI": [
+        11,
+        13
+      ]
+    }
+  },
+  "IF710BIN": {
+    "nombre": "SEMINARIO DE INVESTIGACION I",
+    "creditos": "03",
+    "semestre": "8",
+    "horas": {
+      "LU": [
+        18,
+        20
+      ],
+      "MI": [
+        18,
+        20
+      ]
+    }
+  },
+  "IF459AIN": {
+    "nombre": "COMPUTACION GRAFICA II",
+    "creditos": "04",
+    "semestre": "9",
+    "horas": {
+      "MA": [
+        7,
+        9
+      ],
+      "JU": [
+        7,
+        9
+      ],
+      "VI": [
+        8,
+        9
+      ]
+    }
+  },
+  "IF459BIN": {
+    "nombre": "COMPUTACION GRAFICA II",
+    "creditos": "04",
+    "semestre": "9",
+    "horas": {
+      "MA": [
+        14,
+        16
+      ],
+      "JU": [
+        14,
+        16
+      ],
+      "VI": [
+        15,
+        16
+      ]
+    }
+  },
+  "IF483AIN": {
+    "nombre": "FORMULACION DE PROYECTOS DE TECNOLOGIA DE INFORMACION",
+    "creditos": "03",
+    "semestre": "9",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF483BIN": {
+    "nombre": "FORMULACION DE PROYECTOS DE TECNOLOGIA DE INFORMACION",
+    "creditos": "03",
+    "semestre": "9",
+    "horas": {
+      "LU": [
+        14,
+        16
+      ],
+      "MI": [
+        14,
+        16
+      ]
+    }
+  },
+  "IF617AIN": {
+    "nombre": "INGENIERIA DE SOFTWARE II",
+    "creditos": "04",
+    "semestre": "9",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ],
+      "VI": [
+        10,
+        11
+      ]
+    }
+  },
+  "IF656AIN": {
+    "nombre": "PROCESAMIENTO DEL LENGUAJE NATURAL",
+    "creditos": "04",
+    "semestre": "9",
+    "horas": {
+      "LU": [
+        11,
+        13
+      ],
+      "MI": [
+        11,
+        13
+      ],
+      "VI": [
+        11,
+        12
+      ]
+    }
+  },
+  "IF654AIN": {
+    "nombre": "ROBOTICA",
+    "creditos": "04",
+    "semestre": "9",
+    "horas": {
+      "LU": [
+        9,
+        11
+      ],
+      "MI": [
+        9,
+        11
+      ],
+      "VI": [
+        10,
+        11
+      ]
+    }
+  },
+  "IF657AIN": {
+    "nombre": "VISION COMPUTACIONAL",
+    "creditos": "04",
+    "semestre": "9",
+    "horas": {
+      "MA": [
+        9,
+        11
+      ],
+      "JU": [
+        9,
+        11
+      ],
+      "VI": [
+        9,
+        10
+      ]
+    }
+  },
+  "IF603ZIN": {
+    "nombre": "ROBOTICA Y PROCESAMIENTO DE SE\u00d1AL   ",
+    "creditos": "04",
+    "semestre": "10",
+    "horas": {
+      "": [
+        0,
+        0
+      ]
+    }
+  },
+  "IF711AIN": {
+    "nombre": "SEMINARIO DE INVESTIGACION II",
+    "creditos": "03",
+    "semestre": "10",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ]
+    }
+  },
+  "IF711BIN": {
+    "nombre": "SEMINARIO DE INVESTIGACION II",
+    "creditos": "03",
+    "semestre": "10",
+    "horas": {
+      "LU": [
+        7,
+        9
+      ],
+      "MI": [
+        7,
+        9
+      ]
+    }
+  }
+}

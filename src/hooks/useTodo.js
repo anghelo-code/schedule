@@ -42,5 +42,13 @@ export const useTodo = (initialValue = []) => {
     }
 
     // otra opcion es usar react hook form que es el mismo pero mucho mejor elaborado
-  return ({todos, handleNewTodo, handleToggleTodo, handleRemoveTodo});
+    return {
+        todos,
+
+        todosCount: todos.length,
+        handleNewTodo,
+        handleRemoveTodo,
+        handleToggleTodo,
+    }
+
 }
