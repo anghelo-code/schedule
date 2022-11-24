@@ -21,3 +21,11 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.widt-th {
+  width: 100px;
+}
+
+.widt-days {
+  width: 200px;
+}

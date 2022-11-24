@@ -21,14 +21,9 @@ export const GetDays = () => {
         if (hours.indexOf(i.toString()) == -1) InitHour(i.toString(), result, hours);
 
         const aux = {
-          id: item.id,
+          id: item.values.nombre,
           color: item.color
         }
-
-        // console.log('valores: ');
-        // console.log(auxHoras,hour,i);
-        // console.log(days.indexOf(hour));
-        // console.log(result);
 
         result[i.toString()][days.indexOf(hour)].push(aux);
       }
@@ -36,6 +31,7 @@ export const GetDays = () => {
   })
 
   console.log(result);
+
   return [result, hours];
 
 }

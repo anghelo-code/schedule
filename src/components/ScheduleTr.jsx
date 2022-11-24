@@ -1,3 +1,5 @@
+import { useId } from "react";
+import { ScheduleTrChild } from "./ScheduleTrChild";
 
 export const ScheduleTr = ({ courses }) => {
   return (
@@ -6,23 +8,19 @@ export const ScheduleTr = ({ courses }) => {
         courses.map((item) => {
           if (item.length > 1) {
             return (
-              <td key={item.id} >
+              <td key={ useId() } >
                 <div className="h-100 d-flex flex-column">
                   {
                     item.map((course) => (
-                      <div key={course.id } className="w-100 h-100" style={{ backgroundColor: course.color }}>
-                        {course.id}
-                      </div>
+                      <ScheduleTrChild key={ useId() } course={ course }/>
                     ))
                   }
                 </div>
               </td>
-
-
             )
           }
           return (
-            <td key={item[0]?.id} style={{ backgroundColor: item[0]?.color }} >
+            <td key={ useId() } style={{ backgroundColor: item[0]?.color }} >
               {item[0]?.id}
             </td>
           );
