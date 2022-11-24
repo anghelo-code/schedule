@@ -30,7 +30,7 @@ export const GetDays = () => {
     }
   })
 
-  console.log(result);
+  hours.sort( (a, b) => ( parseInt(a, 10) - parseInt(b, 10)));
 
   return [result, hours];
 
