@@ -4,7 +4,7 @@ import { TodoContext } from '../context/TodoContext';
 
 export const Courses = () => {
 
-  const { todos } =  useContext( TodoContext );
+  const { todos, handleRemoveTodo, todosCount } =  useContext( TodoContext );
 
   return (
     <div className="list-group border p-4">
@@ -12,7 +12,13 @@ export const Courses = () => {
 
       {
         todos.map( ({ id, values, color }) => (
-          <OneCourses  key={ id } name={ values.nombre } times={ values.horas } id={id} classDiv={ color } />
+          <OneCourses  
+            key={ id + todosCount } 
+            name={ values.nombre } 
+            times={ values.horas } 
+            id={id} 
+            classDiv={ color } 
+            handleRemoveTodo={ (id) => handleRemoveTodo(id) }  />
 
         ))
       }

@@ -9,7 +9,7 @@ export const ScheduleTr = ({ courses }) => {
           if (item.length > 1) {
             return (
               <td key={ useId() } >
-                <div className="h-100 d-flex flex-column">
+                <div className="h-100 d-flex flex-column bordeTd">
                   {
                     item.map((course) => (
                       <ScheduleTrChild key={ useId() } course={ course }/>
