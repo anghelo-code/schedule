@@ -19,7 +19,7 @@ export const OneCourses = ({ name, id, times, classDiv, handleRemoveTodo}) => {
             <div className="d-flex w-100 justify-content-between" >
                 <p className="mb-1">{textTimes}</p>
                 <button 
-                className=" w-25 btn btn-danger" 
+                className=" w-25 btn btn-danger btn-eliminar text-center" 
                 onClick={ () => handleRemoveTodo(id) }
             >
                 Eliminar

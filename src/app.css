@@ -34,3 +34,19 @@
 .widt-days {
   width: 200px;
 }
+
+@media (max-width: 1500px) {
+
+ .btn-eliminar {
+    font-size: .6rem;
+    height: 28px;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  p, div, tr {
+    font-size: .8rem;
+  }
+}

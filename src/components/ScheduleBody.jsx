@@ -10,8 +10,8 @@ export const ScheduleBody = () => {
     <tbody className="table-group-divider">
       {
         hours.map( (hour) => (
-          <tr key={hour}>
-            <th>{textHour[hour-7]}</th>
+          <tr key={hour} >
+            <th className="h-auto">{textHour[hour-7]}</th>
             <ScheduleTr courses={ result[hour.toString()] } />
           </tr>
         ))
