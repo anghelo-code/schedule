@@ -4,7 +4,7 @@ export const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/" ><img src="./../../../img/elmo.png" alt="elmo" height="40" width="33" className="d-inline-block align-text-top"/> ELMOrario</Link>
+        <Link className="navbar-brand" to="/" ><img src="./../../../public/img/elmo.png" alt="elmo" height="40" width="33" className="d-inline-block align-text-top"/> ELMOrario</Link>
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
