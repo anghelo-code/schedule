@@ -16,7 +16,7 @@ export const NavBar = () => {
             </li>
 
             <li className="nav-item">
-              <a className='nav-link' href='https://docs.google.com/document/d/1svTYxN15i0yRRNeb1P_JBRcHFeOZz681b23O-4kUYQI/edit' target="_blank" >Ayuda</a>
+              <a className='nav-link' href='https://docs.google.com/document/d/1wqUYlS3JDliWzIOIvUWFyUTkAPtotPo8s-bzlKkTn7c/edit' target="_blank" >Ayuda</a>
             </li>
 
           </ul>

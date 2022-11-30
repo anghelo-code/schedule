@@ -1,10 +1,14 @@
-export const OneCourse = ({ name, id, times, classDiv, handleRemoveTodo}) => {
-    let textTimes = ``
+import { TodoContext } from '../../context';
+import { useContext } from "react";
 
-    for ( let day in times ){
-        textTimes += `${day}:  ${times[day][0]} a ${times[day][1]} `;
-    }
-
+export const OneCourse = ({ name, id, aulas, classDiv, handleRemoveTodo}) => {
+    const { colors, setColors } =  useContext( TodoContext );
+    const onRemoveTodo = (id) => {
+        setColors(c => ([ ...c , classDiv ]) );
+        handleRemoveTodo(id);
+        console.log('eliminar')
+        console.log(colors)
+    } 
 
     return (
         <div className="list-group-item list-group-item-action" aria-current="true" style={{backgroundColor: classDiv}}>
@@ -14,10 +18,10 @@ export const OneCourse = ({ name, id, times, classDiv, handleRemoveTodo}) => {
             </div>
             
             <div className="d-flex w-100 justify-content-between" >
-                <p className="mb-1">{textTimes}</p>
+                <p className="mb-1">{ aulas }</p>
                 <button 
                 className=" w-25 btn btn-danger btn-eliminar text-center" 
-                onClick={ () => handleRemoveTodo(id) }
+                onClick={ () => onRemoveTodo(id) }
             >
                 Eliminar
             </button>

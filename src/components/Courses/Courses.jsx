@@ -14,9 +14,9 @@ export const Courses = () => {
         todos.map( ({ id, values, color }) => (
           <OneCourse  
             key={ id + todosCount } 
-            name={ values.nombre } 
-            times={ values.horas } 
-            id={id} 
+            name={ values.nombre }
+            id={id}
+            aulas={ values.aulas }
             classDiv={ color } 
             handleRemoveTodo={ (id) => handleRemoveTodo(id) }  />
 
