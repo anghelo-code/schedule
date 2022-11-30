@@ -1,4 +1,4 @@
-import { GetDays } from '../help/GetDays';
+import { GetDays } from '../../helpers/GetDays';
 import { ScheduleTr } from './ScheduleTr';
 
 export const ScheduleBody = () => {

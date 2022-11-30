@@ -1,4 +1,4 @@
-import { useTodo } from '../hooks/useTodo';
+import { useTodo } from '../hooks';
 import { TodoContext } from './TodoContext'
 export const TodoProvider = ({ children }) => {
 

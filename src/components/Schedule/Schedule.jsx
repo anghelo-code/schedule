@@ -1,5 +1,4 @@
-import { ScheduleBody } from "./ScheduleBody";
-import { ScheduleHead } from "./ScheduleHead"
+import { ScheduleBody, ScheduleHead } from "../Schedule";
 
 export const Schedule = ({ exportRef }) => { 
   

@@ -1,6 +1,6 @@
 import { Courses } from "../components/Courses";
 import { Form } from "../components/Form";
-import { LinkButton } from "../components/LinkButton";
+import { LinkButton } from "../components/extra";
 import './../app.css';
 
 export const HomePage = () => {
@@ -18,8 +18,8 @@ export const HomePage = () => {
         <br />
         <br />
         {/* courses */}
-        <div className="bodyHome">
-          <div className="w-25">
+        <div className="animate__animated animate_fadeIn bodyHome">
+          <div className="animate__backOutLeft w-25">
             <Courses />
           </div>
 

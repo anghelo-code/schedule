@@ -1,7 +1,4 @@
-import { useContext } from "react";
-import { TodoContext } from "../context/TodoContext";
-
-export const OneCourses = ({ name, id, times, classDiv, handleRemoveTodo}) => {
+export const OneCourse = ({ name, id, times, classDiv, handleRemoveTodo}) => {
     let textTimes = ``
 
     for ( let day in times ){

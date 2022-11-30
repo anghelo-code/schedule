@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const ScheduleHead = () => {
   return (
     <thead className='table-light'>

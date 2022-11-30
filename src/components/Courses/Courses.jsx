@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { OneCourses } from './OneCourses';
-import { TodoContext } from '../context/TodoContext';
+import { OneCourse } from './OneCourse';
+import { TodoContext } from '../../context';
 
 export const Courses = () => {
 
@@ -12,7 +12,7 @@ export const Courses = () => {
 
       {
         todos.map( ({ id, values, color }) => (
-          <OneCourses  
+          <OneCourse  
             key={ id + todosCount } 
             name={ values.nombre } 
             times={ values.horas } 

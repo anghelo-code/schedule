@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { useForm } from "react-hook-form";
-import { TodoContext } from "../context/TodoContext";
+import { TodoContext } from "../../context";
 
-import courses from './../../data/courses.json';
+import courses from '../../../data/courses.json';
 import { Options } from "./Options";
 
 export const Form = () => {
