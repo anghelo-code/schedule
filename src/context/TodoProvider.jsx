@@ -3,7 +3,7 @@ import { useTodo } from '../hooks';
 import { TodoContext } from './TodoContext'
 
 const init = () =>{
-  return JSON.parse(localStorage.getItem('colors')) || ["#73c8a9", "#dee1b6", "#e1b866", "#bd5532", "#a8636e", "#97b59d", "#cfcca8", "#ffe3b3", "#96bda8", "#bfd4ad", "#f7d3a3", "#eca36c", "#f2d786", "#ff9784", "#c09491", "#a4c09a", "#d4d9a1", '#966c80'];
+  return JSON.parse(localStorage.getItem('colors')) || ["#73c8a9", "#dee1b6", "#e1b866", "#bd5532", "#a8636e", "#97b59d", "#cfcca8", "#ffe3b3", "#96bda8", "#bfd4ad", "#f7d3a3", "#eca36c", "#f2d786", "#ff9784", "#c09491", "#a4c09a", "#d4d9a1"];
 }
 
 
