@@ -8,7 +8,7 @@ import { Options } from "./Options";
 export const Form = () => {
   const colors = ["#73c8a9", "#dee1b6", "#e1b866", "#bd5532", "#b9113f", "#a8636e", "#97b59d", "#cfcca8", "#ffe3b3", "#966c80", "#96bda8", "#bfd4ad", "#f7d3a3", "#eca36c", "#f2d786", "#ff9784", "#c09491", "#a4c09a", "#d4d9a1"];
 
-  const { handleNewTodo, todosCount } = useContext(TodoContext);
+  const { todos, handleNewTodo, todosCount } = useContext(TodoContext);
   const { register, handleSubmit } = useForm();
 
   const onSubmit = data => {
@@ -19,7 +19,12 @@ export const Form = () => {
       color:  colors[todosCount],
     }
 
-    handleNewTodo(curso);
+    const chekTodo = todos.filter((todo) => todo.id == data.Curso)
+
+    if (chekTodo.length == 0){
+      handleNewTodo(curso);
+    }
+  
   };
 
   let keys =  Object.keys(courses);
