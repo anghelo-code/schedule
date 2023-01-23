@@ -1,37 +1,82 @@
-import { useContext } from "react";
-import { useForm } from "react-hook-form";
+import { useContext, useEffect, useState } from "react";
+import { useForm, Controller } from "react-hook-form";
 import { TodoContext } from "../../context";
+import Select from 'react-select'
+import { useFetch } from "../../hooks";
 
 import courses from '../../../data/IIS.json';
 import { Options } from "./Options";
 
+
 export const Form = () => {
-  // const colors = ["#73c8a9", "#dee1b6", "#e1b866", "#bd5532", "#a8636e", "#97b59d", "#cfcca8", "#ffe3b3", "#96bda8", "#bfd4ad", "#f7d3a3", "#eca36c", "#f2d786", "#ff9784", "#c09491", "#a4c09a", "#d4d9a1", '#966c80'];
-
   const { setColors, colors, todos, handleNewTodo} = useContext(TodoContext);
-  const { register, handleSubmit } = useForm();
-
+  const { handleSubmit, register } = useForm();
+  
   const onSubmit = data => {
-    console.log(colors);
 
     const curso = {
       id: data.Curso,
-      values: courses[data.Curso],
+      values: listCourses.data[data.Curso],
       color:  colors[colors.length - 1],
     }
     
     setColors(c => ( c.filter( color => color != curso.color )) );
-    console.log(colors);
 
     const chekTodo = todos.filter((todo) => todo.id == data.Curso)
-
     if (chekTodo.length == 0){
       handleNewTodo(curso);
     }
-  
   };
 
-  let keys =  Object.keys(courses);
+  
+  const urlCareers = `http://127.0.0.1:8000/careers/`;
+  const jsonCarrers = useFetch(urlCareers);
+  // console.log(jsonCarrers.data?.map( career => ({ label:career.name, value:career.id  }) ));
+
+  
+  const [Courses, setCourses] = useState(45);
+  const [urlCourses, setUrlCourses] = useState(`http://127.0.0.1:8000/courses/45`);
+  const [listCourses, setListCourses] = useState([])
+  const [valueCourses, setValueCourses] = useState([])
+
+
+
+
+
+  const handleChange = (selectedOption) => {
+    setCourses(selectedOption.value);
+    
+    // setListCourses(jsonCourses.data);
+    // console.log(listCourses);
+    // if (listCourses != null){
+    //   keys =  Object.keys(listCourses);}
+  }
+  
+  const jsonCourses = useFetch(urlCourses);
+
+  useEffect(() => {
+    setUrlCourses(`http://127.0.0.1:8000/courses/${ Courses }`);
+    setListCourses(jsonCourses);
+    if (jsonCourses.data != null){
+      const list = []
+      const objetoCour = jsonCourses.data
+      for(const prop in objetoCour) {
+        list.push({label: objetoCour[prop]["nombre"] + " - " + prop , value: prop })
+      }
+      setValueCourses(list);
+    }
+  }, [Courses])
+
+  
+  
+
+  const handleCourses = (selectedOption) => {
+    console.log(selectedOption);
+    
+  }
+  
+
+  
 
   return (
     <form className="row" onSubmit={ handleSubmit(onSubmit) }>
@@ -39,33 +84,34 @@ export const Form = () => {
         <div className="form-group">
           <label htmlFor="Carrera">Carrera Profesional</label>
 
-          <select
-            className="form-select"
-            aria-label="Default select example"
+          <Select
+            // className="form-select"
+            id="Carrera"
+            isSearchable={ true }
+            options = { jsonCarrers.data?.map( career => ({ label:career.name, value:career.id  }) ) }
             name="Carrera"
-            {...register("Carrera")}
-          >
-            <option value="INGSIS">Ingenieria de Sistemas</option>
-          </select>
+            onChange= { handleChange }
+          />
         </div>
       </div>
 
       <div className="col-md-4">
         <div className="form-group">
           <label htmlFor="Curso">Curso</label>
-
           <select
             className="form-select"
             aria-label="Default select example"
             name="Curso"
+            placeholder="Seleccione un Curso"
             {...register("Curso")}
           >
+            <option value="" disabled selected>Seleccione un Curso</option>
             { 
-              keys.map((key) => (
-                <Options  key={key} value={ key }  text={ courses[key].nombre + ' - ' + key } />
+              valueCourses.map((key) => (
+                <Options  key={key.value} value={ key.value }  text={ key.label } />
               ))
             }
-          </select>
+          </select> 
         </div>
       </div>
 
