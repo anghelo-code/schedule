@@ -29,13 +29,13 @@ export const Form = () => {
   };
 
   
-  const urlCareers = `http://127.0.0.1:8000/careers/`;
+  const urlCareers = `https://schedule-backend-kv9u.onrender.com/careers/`;
   const jsonCarrers = useFetch(urlCareers);
   // console.log(jsonCarrers.data?.map( career => ({ label:career.name, value:career.id  }) ));
 
   
   const [Courses, setCourses] = useState(45);
-  const [urlCourses, setUrlCourses] = useState(`http://127.0.0.1:8000/courses/45`);
+  const [urlCourses, setUrlCourses] = useState(`https://schedule-backend-kv9u.onrender.com/courses/45`);
   const [listCourses, setListCourses] = useState([])
   const [valueCourses, setValueCourses] = useState([])
 
@@ -55,7 +55,7 @@ export const Form = () => {
   const jsonCourses = useFetch(urlCourses);
 
   useEffect(() => {
-    setUrlCourses(`http://127.0.0.1:8000/courses/${ Courses }`);
+    setUrlCourses(`https://schedule-backend-kv9u.onrender.com/courses/${ Courses }`);
     setListCourses(jsonCourses);
     if (jsonCourses.data != null){
       const list = []
