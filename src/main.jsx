@@ -5,9 +5,9 @@ import { AppSchedule } from './AppSchedule';
 import 'animate.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <BrowserRouter>
       <AppSchedule/>
     </BrowserRouter>
-  </React.StrictMode>
+  // </React.StrictMode>
 )

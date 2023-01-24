@@ -1,22 +1,24 @@
-import { useContext, useEffect, useState } from "react";
-import { useForm, Controller } from "react-hook-form";
+import { useContext, useState } from "react";
+import { useForm } from "react-hook-form";
 import { TodoContext } from "../../context";
-import Select from 'react-select'
 import { useFetch } from "../../hooks";
 
-import courses from '../../../data/IIS.json';
 import { Options } from "./Options";
 
 
 export const Form = () => {
+
   const { setColors, colors, todos, handleNewTodo} = useContext(TodoContext);
-  const { handleSubmit, register } = useForm();
+  const { handleSubmit, register, reset} = useForm( {
+    defaultValues: {
+      Curso: "None",
+  }});
   
   const onSubmit = data => {
 
     const curso = {
       id: data.Curso,
-      values: listCourses.data[data.Curso],
+      values: jsonCourses.data[data.Curso],
       color:  colors[colors.length - 1],
     }
     
@@ -26,55 +28,20 @@ export const Form = () => {
     if (chekTodo.length == 0){
       handleNewTodo(curso);
     }
+    reset({ Curso: "None" })
   };
 
-  
   const urlCareers = `https://schedule-backend-kv9u.onrender.com/careers/`;
   const jsonCarrers = useFetch(urlCareers);
-  // console.log(jsonCarrers.data?.map( career => ({ label:career.name, value:career.id  }) ));
+  const [urlCourses, setUrlCourses] = useState(``);
 
-  
-  const [Courses, setCourses] = useState(45);
-  const [urlCourses, setUrlCourses] = useState(`https://schedule-backend-kv9u.onrender.com/courses/45`);
-  const [listCourses, setListCourses] = useState([])
-  const [valueCourses, setValueCourses] = useState([])
-
-
-
-
-
-  const handleChange = (selectedOption) => {
-    setCourses(selectedOption.value);
-    
-    // setListCourses(jsonCourses.data);
-    // console.log(listCourses);
-    // if (listCourses != null){
-    //   keys =  Object.keys(listCourses);}
+  const handleChange = (e) => {
+    console.log(e.target.value);
+    setUrlCourses(`https://schedule-backend-kv9u.onrender.com/courses/${ e.target.value }`);
+    setCareer(e.target.value)
   }
-  
   const jsonCourses = useFetch(urlCourses);
-
-  useEffect(() => {
-    setUrlCourses(`https://schedule-backend-kv9u.onrender.com/courses/${ Courses }`);
-    setListCourses(jsonCourses);
-    if (jsonCourses.data != null){
-      const list = []
-      const objetoCour = jsonCourses.data
-      for(const prop in objetoCour) {
-        list.push({label: objetoCour[prop]["nombre"] + " - " + prop , value: prop })
-      }
-      setValueCourses(list);
-    }
-  }, [Courses])
-
-  
-  
-
-  const handleCourses = (selectedOption) => {
-    console.log(selectedOption);
-    
-  }
-  
+  console.log(jsonCourses);
 
   
 
@@ -84,14 +51,22 @@ export const Form = () => {
         <div className="form-group">
           <label htmlFor="Carrera">Carrera Profesional</label>
 
-          <Select
-            // className="form-select"
-            id="Carrera"
-            isSearchable={ true }
-            options = { jsonCarrers.data?.map( career => ({ label:career.name, value:career.id  }) ) }
+          <select
+            className="form-select"
+            aria-label="Default select example"
             name="Carrera"
-            onChange= { handleChange }
-          />
+            id="Carrera"
+            {...register("Carrera")}
+            onChange={ handleChange }
+    
+          >
+            <option value="None" disabled selected>Seleccione una Carrera</option>
+            { 
+              jsonCarrers.data?.map( career => ( 
+                <Options  key={career.id} value={ career.id }  text={ career.name } />
+              ))
+            }
+          </select>
         </div>
       </div>
 
@@ -105,11 +80,12 @@ export const Form = () => {
             placeholder="Seleccione un Curso"
             {...register("Curso")}
           >
-            <option value="" disabled selected>Seleccione un Curso</option>
+            <option value="None" disabled selected>Seleccione un Curso</option>
             { 
-              valueCourses.map((key) => (
-                <Options  key={key.value} value={ key.value }  text={ key.label } />
+              !jsonCourses.isLoading && Object.keys(jsonCourses.data).map( course => (
+                <Options  key={course} value={ course }  text={ jsonCourses.data[course]["nombre"] + '-' + course } />
               ))
+
             }
           </select> 
         </div>
