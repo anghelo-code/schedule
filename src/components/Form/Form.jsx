@@ -93,7 +93,7 @@ export const Form = () => {
 
       <div className="col-md-3">
         <br />
-        <button className="btn btn-primary" name="button-r">Agregar Curso</button>
+        <button type="submit" className="btn btn-primary" name="button-r">Agregar Curso</button>
       </div>
     </form>
   )
