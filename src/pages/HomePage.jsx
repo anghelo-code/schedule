@@ -2,7 +2,6 @@ import { Courses } from "../components/Courses";
 import { Form } from "../components/Form";
 import { LinkButton } from "../components/extra";
 import './../app.css';
-import { Ej2Schedule } from "../components/ScheduleV2/ScheduleV2";
 
 export const HomePage = () => {
   return (

@@ -2,6 +2,7 @@ import { Courses } from "../components/Courses"
 import { Schedule } from "../components/Schedule";
 import { exportAsImage } from "../helpers/exportAsImage";
 import { useRef } from "react";
+import { ScheduleV2 } from "../components/ScheduleV2/ScheduleV2";
 
 export const SchedulePage = () => {
   const exportRef = useRef();
@@ -28,6 +29,7 @@ export const SchedulePage = () => {
         {/* schedule */}
         <div className="animate__animated animate_fadeIn col-md-9 p-5 align-items-center row">
           {/* <Schedule exportRef={exportRef} /> */}
+          <ScheduleV2 />
         </div>
 
       </section>
